@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bs-Vue</title>
+    <meta >
+    <script src=""></script>
+
+</head>
+<body>
+<div>
+    <h3>输出</h3>
+    <p id="p1">aaa</p>
+
+</div>
+<div id="app1">
+    <p>{{message}}</p>
+</div>
+ <script>
+     var a=3;
+     var b=5;
+     var c=a+b;
+     document.getElementById("p1").innerHTML=c;
+var vm = new vue({
+    el:'#app1',
+    data:{
+message:'hello world!'
+    }
+});
+ </script>
+
+</body>
+</html>
